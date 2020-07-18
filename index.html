@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Dialog Sample</title>
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://" />
+  <meta property="og:image" content="https://" />
+  <meta property="og:site_name" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="google" content="nositelinkssearchbox" />
+  <link rel="canonical" href="https://" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="icon" sizes="192x192" href="" />
+  <link rel="apple-touch-icon" sizes="180x180" href="" />
+  <link rel="stylesheet" href="/assets/style/css/style.min.css">
+</head>
+
+<body>
+  <header class="c-header">
+    <div class="c-header__content">ヘッダー</div>
+  </header>
+  <main class="l-main">
+    <ul class="c-flex">
+      <li class="c-flex__item">
+        <div class="c-card">
+          <img class="c-card__thumb" src="/assets/images/photo_01.jpg" alt="写真01">
+          <button class="js-dialog-trigger c-card__button" data-target="dialog-01">大きな写真で見る</button>
+        </div>
+      </li>
+      <li class="c-flex__item">
+        <div class="c-card">
+          <img class="c-card__thumb" src="/assets/images/photo_02.jpg" alt="写真02">
+          <button class="js-dialog-trigger c-card__button" data-target="dialog-02">大きな写真で見る</button>
+        </div>
+      </li>
+      <li class="c-flex__item">
+        <div class="c-card">
+          <img class="c-card__thumb" src="/assets/images/photo_03.jpg" alt="写真03">
+          <button class="js-dialog-trigger c-card__button" data-target="dialog-03">大きな写真で見る</button>
+        </div>
+      </li>
+      <li class="c-flex__item">
+        <div class="c-card">
+          <img class="c-card__thumb" src="/assets/images/photo_04.jpg" alt="写真04">
+          <button class="js-dialog-trigger c-card__button" data-target="dialog-04">大きな写真で見る</button>
+        </div>
+      </li>
+    </ul>
+    <div id="dialog-01" class="c-dialog__outer">
+      <div class="c-dialog">
+        <div class="c-dialog__inner">
+          <img class="c-dialog__image" src="/assets/images/photo_01.jpg" alt="写真01">
+          <button class="js-dialog-trigger c-button" data-target="dialog-01">閉じる</button>
+        </div>
+      </div>
+      <div class="js-dialog-trigger c-dialog__bg" data-target="dialog-01"></div>
+    </div>
+    <div id="dialog-02" class="c-dialog__outer">
+      <div class="c-dialog">
+        <div class="c-dialog__inner">
+          <img class="c-dialog__image" src="/assets/images/photo_02.jpg" alt="写真02">
+          <button class="js-dialog-trigger c-button" data-target="dialog-02">閉じる</button>
+        </div>
+      </div>
+      <div class="js-dialog-trigger c-dialog__bg" data-target="dialog-02"></div>
+    </div>
+    <div id="dialog-03" class="c-dialog__outer">
+      <div class="c-dialog">
+        <div class="c-dialog__inner">
+          <img class="c-dialog__image" src="/assets/images/photo_03.jpg" alt="写真03">
+          <button class="js-dialog-trigger c-button" data-target="dialog-03">閉じる</button>
+        </div>
+      </div>
+      <div class="js-dialog-trigger c-dialog__bg" data-target="dialog-03"></div>
+    </div>
+    <div id="dialog-04" class="c-dialog__outer">
+      <div class="c-dialog">
+        <div class="c-dialog__inner">
+          <img class="c-dialog__image" src="/assets/images/photo_04.jpg" alt="写真04">
+          <button class="js-dialog-trigger c-button" data-target="dialog-04">閉じる</button>
+        </div>
+      </div>
+      <div class="js-dialog-trigger c-dialog__bg" data-target="dialog-04"></div>
+    </div>
+  </main>
+  <script lang="js" src="/src/common.js"></script>
+</body>
+</html>

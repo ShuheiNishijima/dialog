@@ -1,0 +1,18 @@
+.c-button {
+  @include transition(opacity);
+  opacity: 1;
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $baseColor-02;
+  color: #fff;
+  font-size: $fontSize-m;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(#000, 0.3);
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  };
+}
