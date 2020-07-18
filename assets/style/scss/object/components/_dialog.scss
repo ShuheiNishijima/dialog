@@ -21,6 +21,10 @@
   max-width: 640px;
   top: 50%;
   left: 50%;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
   background-color: $baseColor-03;
   border-radius: 4px;
   box-shadow: 0 5px 10px rgba(#000, 0.5);
@@ -32,13 +36,6 @@
     width: calc(100% - 30px);
     min-width: 345px;
   }
-}
-
-.c-dialog__inner {
-  padding-top: 20px;
-  padding-right: 15px;
-  padding-bottom: 20px;
-  padding-left: 15px;
 }
 
 .c-dialog__image {
