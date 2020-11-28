@@ -7,7 +7,7 @@
       $target.classList.toggle('is-open');
     }
     const $triggers = document.querySelectorAll('.js-dialog-trigger');
-    [...$triggers].forEach($trigger => {
+    [...$triggers].map($trigger => {
       $trigger.addEventListener('click', () => {
         isOpen($trigger);
       });
