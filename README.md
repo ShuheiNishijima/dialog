@@ -1,6 +1,14 @@
 # Dialog sample
-## 準備
-- お使いのPCにVisual Studio Code（エディタ）をインストールしてください。
-- 以下のVSCode拡張機能を使うと便利です。
-  - Live Sass Compiler（Sassのコンパイル）
-  - Live Server（ローカルでのブラウザ確認）
+## Build Setup
+```bash
+# use node.js version
+v14.15.3
+```
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:3001
+npm run dev
+```
