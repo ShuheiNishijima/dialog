@@ -1,0 +1,19 @@
+// @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
+
+@mixin font-family {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+$fontSize-init: 62.5%;
+$fontSize-xxxs: 1.0rem;
+$fontSize-xxs:  1.1rem;
+$fontSize-xs:   1.2rem;
+$fontSize-ss:   1.3rem;
+$fontSize-s:    1.4rem;
+$fontSize-m:    1.6rem;
+$fontSize-l:    1.8rem;
+$fontSize-ll:   2.0rem;
+$fontSize-xl:   2.2rem;
+$fontSize-xxl:  2.6rem;
+$fontSize-xxxl: 3.0rem;
